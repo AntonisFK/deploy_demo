@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+ 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#answer").toggle();
+    })
+  })
+  </script>
+</head>
+<body>
+    <button>Is Nima the laziest person you know</button>
+    <div id="answer" style="display: none;">
+      <h2>YES</h2>
+      <img src="http://i.imgur.com/cdPK5iv.png" alt="">
+
+    </div>
+</body>
+</html>
